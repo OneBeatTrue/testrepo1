@@ -12,6 +12,17 @@ struct Circle {
 };
 
 int main() {
+    Triangle triangle = Triangle();
+    triangle.x1 = 0.0;
+    triangle.y1 = 1.0;
+
+    triangle.x2 = 1.0;
+    triangle.y2 = 0.0;
+
+    triangle.x3 = 1.0;
+    triangle.y3 = 1.0;
+
+
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }
