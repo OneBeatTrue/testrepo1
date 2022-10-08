@@ -4,4 +4,7 @@ struct rectangle {
     double perimeter (){
         return (width + height) * 2;
     }
+    double area (){
+        return width * height;
+    }
 }
